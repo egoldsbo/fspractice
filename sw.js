@@ -11,6 +11,7 @@ self.addEventListener("install", e => {
     "./manifest.json",
     "./sw.js",
     "./logo192.png",
+    "./logo512.png",
     ]);
     }).then(() => {
     self.skipWaiting();
