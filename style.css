@@ -57,6 +57,7 @@ font-size: 120%;
    border-color: rgb(91, 91, 91);
    border: 3%;
 user-select: none;
+user-zoom: none;
 }
 
 .labelrow{
