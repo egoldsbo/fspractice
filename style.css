@@ -1,0 +1,129 @@
+html,body{
+overflow: hidden;
+background-color: black;
+}
+
+.row{
+display: flex;
+flex-flow: row nowrap;
+}
+
+
+.col{
+    display: flex;
+    flex-flow: column nowrap;
+    }
+    
+
+.div1{
+display:block;
+    height:97vh;
+    width:70vw;
+    background-color: #b41b1b;
+}
+
+.div2{
+    display:block;
+    height:97vh;
+    width:30vw;
+    background-color: #91df15;
+}
+
+.vidclass1{
+    display:block;
+    height: 100%;
+    object-fit: fill;
+    width: 100%;
+}
+
+.vidclass2{
+    display:none;
+    height: 100%;
+    object-fit: fill;
+    width: 100%;
+}
+
+.buttons{
+height:100%;
+width:100%;
+font-size: 120%;
+   text-emphasis: bold;
+   font-weight: bold;
+   background-color: rgb(69, 69, 69);
+   border-color: rgb(91, 91, 91);
+   border: 3%;
+user-select: none;
+}
+
+.labelrow{
+    font-size: 100%;
+   text-emphasis: bold;
+   font-weight: bold;
+   background-color: rgb(69, 69, 69);
+   border-color: rgb(91, 91, 91);
+   height: 5vh;
+}
+
+.ctrlrow1{
+    display:flex;
+    flex-flow: row nowrap;
+    height:20vh
+    
+    }
+
+.ctrlrow2{
+display:flex;
+flex-flow: row nowrap;
+height:10vh
+
+}
+
+.ctrlrow2{
+display:flex;
+flex-flow: row nowrap;
+height:3vh
+    
+}
+
+.ctrlrow3{
+display:flex;
+flex-flow: row nowrap;
+height:10vh
+
+}
+.ctrlrow4{
+    display:flex;
+    flex-flow: row nowrap;
+    height:10vh
+    
+    }
+.ctrlrow5{
+display:flex;
+flex-flow: row nowrap;
+height:10vh
+}
+
+.ctrlrow6{
+    display:flex;
+    flex-flow: row nowrap;
+    height:10vh
+    }
+
+    .ctrlrow7{
+        display:flex;
+        flex-flow: row nowrap;
+        height:10vh
+        }
+
+
+        .ctrlrow8{
+            display:flex;
+            flex-flow: row nowrap;
+            height:10vh
+            } 
+            
+.ctrlrow9{
+display:flex;
+flex-flow: row nowrap;
+height:10vh
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2HYF6J9TR1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2HYF6J9TR1');
+</script>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body onload="startup()">
+  <div class="row">
+    <div class="div1">
+        <video id="vid1" loop="false" class="vidclass1" src="mostcommonsigns/again.mp4" preload="auto" muted></video>
+        <video id="vid2" loop="false" class="vidclass2" src="mostcommonsigns/also.mp4" preload="auto" muted></video>
+
+
+    </div>
+    <div class="div2">
+            <div class="col">
+                    <div class="ctrlrow1" >                       
+                        <button class="buttons" onclick="again()" >again</button>
+                 
+                        <button class="buttons" onclick="next()">next</button>
+                    </div>
+              
+                    <div class="ctrlrow3" >                       
+                        <button id="revealword" class="buttons">[click to reveal sign]</button>
+                    </div>    
+                    <div class="labelrow" >                       
+                        <div class="buttons">lookup sign:</div>
+                    </div>          
+                    <div class="ctrlrow4" >                       
+                        <button class="buttons" onclick="openLink(0)">signasl</button>
+                        <button class="buttons"onclick="openLink(1)">signbank</button>
+                    </div>   
+                    <div class="ctrlrow5" >                       
+                        <button class="buttons" onclick="openLink(2)">signsavvy</button>
+                        <button class="buttons" onclick="openLink(3)">lifeprint</button>
+                    </div>   
+                    <div class="labelrow" >                       
+                        <div class="buttons">playbackspeed:</div>
+                    </div>   
+                    <div class="ctrlrow6" >                       
+                        <button class="buttons" onclick="playbackspeed('-')">-</button>
+                        <div id="speeddisplay" class="buttons">x1</div>
+                        <button class="buttons" onclick="playbackspeed('+')">+</button>
+                    </div>   
+                    <div class="labelrow" >                       
+                        <div class="buttons">select word set:</div>
+                    </div>   
+                    <div class="ctrlrow8" >  
+                    <select id="mySelect" class="buttons" name="mySelect" onchange="dropdown()">
+                        <option selected value="mostcommonsigns">mostcommonsigns</option>
+                        <option value="mostcommonsigns2">mostcommonsigns2</option>
+                    
+                      </select>
+           
+                    </div>
+                 
+                    <div class="ctrlrow9" >                       
+                    
+                        <button class="buttons" onclick="setloop()" >loop</button>
+                 
+                        <button class="buttons" onclick="setauto()">Auto 3x --></button>
+                        
+                    </div>   
+           
+                </div>
+
+
+
+
+    </div>
+</div>
+
+</body>
+
+  <script src="app.js"></script>
+</html>

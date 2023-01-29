@@ -1,0 +1,9 @@
+$folder = "C:\workspace\videoswapper\mostcommonsigns"
+$files = Get-ChildItem -Path $folder -File
+$jsArray = "[" + ($files | ForEach-Object { "`"$($_.Name)`"" }) -join "," + "]"
+$jsArray
+
+var mostcommonsigns=["again.mp4","also.mp4","ask.mp4","because.mp4","boy.mp4","but.mp4","can.mp4","come.mp4","condone.mp4","deaf.mp4","different.mp4","drink.mp4","drive.mp4","eat.mp4","email.mp4","family.mp4","feel.mp4","few.mp4","find.mp4","fine.mp4","fingerspell.mp4","finish.mp4","food.mp4","for.mp4","forget.mp4","friend.mp4","get.mp4","girl.mp4","give.mp4","go.mp4","good.mp4","have.mp4","he.mp4","hearing.mp4","hello.mp4","help.mp4","home.mp4","how.mp4","internet.mp4","know.mp4","later.mp4","like.mp4","little.mp4","live.mp4","man.mp4","many.mp4","me.mp4","meet.mp4","more.mp4","my.mp4","name.mp4","need.mp4"];
+
+
+var mostcommonsigns2 = ["about.mp4", "after.mp4", "against.mp4", "answer.mp4", "any.mp4", "arrive.mp4", "bad.mp4", "beautiful.mp4", "before.mp4", "better.mp4", "big.mp4", "bring.mp4", "busy.mp4", "buy.mp4", "change.mp4", "cleanup.mp4", "close.mp4", "cold.mp4", "color.mp4", "day.mp4", "early.mp4", "easy.mp4", "enough.mp4", "every.mp4", "false.mp4", "far.mp4", "fast.mp4", "follow.mp4", "from.mp4", "gone.mp4", "happy.mp4", "hard.mp4", "here.mp4", "hot.mp4", "hurt.mp4", "improve.mp4", "in.mp4", "inform.mp4", "interpreter.mp4", "keep.mp4", "last.mp4", "late.mp4", "learn.mp4", "leave.mp4", "lookfor.mp4", "lot.mp4", "make.mp4", "meaning.mp4", "minute.mp4", "month.mp4"];

@@ -1,0 +1,17 @@
+
+
+{
+"name": "FS",
+"short_name": "fingerspelling",
+"start_url": "/index.html",
+"background_color": "#000000",
+"theme_color": "#000000",
+"display": "fullscreen",
+"orientation": "landscape",
+"icons": [
+{
+"src": "logo192.png",
+"sizes": "192x192",
+"type": "image/png"
+}]
+}
