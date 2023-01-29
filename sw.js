@@ -5,8 +5,6 @@ self.addEventListener("install", e => {
     return cache.addAll([
     //addbookhere
     "/",
-    "./style.css",
-    "./app.js",
     "./index.html",
     "./manifest.json",
     "./sw.js",

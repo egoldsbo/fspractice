@@ -1,6 +1,8 @@
 html,body{
 overflow: hidden;
 background-color: black;
+user-zoom: none;
+user-select: none;
 }
 
 .row{
@@ -30,6 +32,8 @@ display:block;
 }
 
 .vidclass1{
+    user-select: none;
+    user-zoom: none;
     display:block;
     height: 100%;
     object-fit: fill;

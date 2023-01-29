@@ -42,14 +42,23 @@ var fileindex=0;
 var speedsarray=[.25,0.5,1,1.5,2,2.5,3];
 var speedindex=2;
 var currentspeed=1;
-
+var playcount=0;
 
 
 var revealword = document.getElementById("revealword");
 revealword.addEventListener("mousedown", function() {
     revealword.innerHTML = filenames[fileindex-1];
 });
+
+
 revealword.addEventListener("mouseup", function() {
+    revealword.innerHTML = " [click to reveal sign]";
+});
+
+revealword.addEventListener("touchstart", function() {
+    revealword.innerHTML = filenames[fileindex-1];
+});
+revealword.addEventListener("touchend", function() {
     revealword.innerHTML = " [click to reveal sign]";
 });
 
