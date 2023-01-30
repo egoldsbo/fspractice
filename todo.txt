@@ -1,5 +1,3 @@
 autonext button
-disable user zoom
-disable context mennu
 improve aesthetics
-fix "reveal word" for mobile
+fix service worker behavior

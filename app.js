@@ -63,8 +63,10 @@ revealword.addEventListener("touchend", function() {
 });
 
 function startup(){
-    filearray=mostcommonsigns;
-    dir="mostcommonsigns/";
+for(var i=0; i<mostcommonsigns.length;i++){
+    filearray[i]=mostcommonsigns[i];
+}
+dir="mostcommonsigns/";
 generaterandomarray();
 
 }
@@ -93,8 +95,8 @@ currentvid=vid1;
 nextvid=vid2;
 vid1.src=filearray[0];
 vid2.src=filearray[1];
+
 vid1.style.display="block";
-vid2.style.display="none";
 fileindex=1;
 
 
@@ -186,18 +188,21 @@ function openLink(ww) {
 }
 
 function dropdown(){
+    filearray=[];
     var selectedOption = document.getElementById("mySelect").value;
     if(selectedOption=="mostcommonsigns"){
-        filearray=mostcommonsigns;
+        for(var i=0; i<mostcommonsigns.length;i++){
+            filearray[i]=mostcommonsigns[i];
+        }   
         dir="mostcommonsigns/";
-
     }
     if(selectedOption=="mostcommonsigns2"){
-        filearray=mostcommonsigns2;
+        for(var i=0; i<mostcommonsigns2.length;i++){
+            filearray[i]=mostcommonsigns2[i];
+        }
         dir="mostcommonsigns2/";
 
     }
-
     generaterandomarray();
 }
 
