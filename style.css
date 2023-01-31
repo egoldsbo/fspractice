@@ -50,7 +50,7 @@ display:block;
 .buttons{
 height:100%;
 width:100%;
-font-size: 120%;
+font-size: 100%;
    text-emphasis: bold;
    font-weight: bold;
    background-color: rgb(69, 69, 69);
@@ -68,6 +68,19 @@ user-zoom: none;
    border-color: rgb(91, 91, 91);
    height: 6vh;
 }
+
+.speeddisplay{
+    height:100%;
+width:100%;
+    font-size: 150%;
+    text-emphasis: bold;
+    font-weight: bold;
+    text-align: center;
+
+    background-color: rgb(69, 69, 69);
+    border-color: rgb(91, 91, 91);
+}
+
 
 .ctrlrow1{
     display:flex;

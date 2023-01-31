@@ -43,7 +43,41 @@ var speedsarray=[.25,0.5,1,1.5,2,2.5,3,3.5,4];
 var speedindex=2;
 var currentspeed=1;
 var playcount=0;
+var loopmode=0;
+var automode=0;
 
+vid1.addEventListener("ended", onended1);
+vid2.addEventListener("ended", onended2);
+function onended1() {
+playcount++;
+console.log("ended 1",playcount);
+if(loopmode==true){
+    vid1.play();
+}
+
+if(automode==true&&playcount>3 ){
+console.log("autoloopnext");
+playcount=0;
+next();
+
+}
+
+}
+
+
+function onended2() {
+    playcount++;
+    console.log("ended 2",playcount);
+    if(loopmode==true){
+        vid2.play();
+    }
+    if(automode==true&&playcount>3 ){
+        console.log("autoloopnext");
+        playcount=0;
+        next();
+        
+        }
+    }
 
 var revealword = document.getElementById("revealword");
 revealword.addEventListener("mousedown", function() {
@@ -89,7 +123,6 @@ for(var i=0;i<filearray.length;i++){
     filearray[i]=dir+filearray[i];
 }
 
-console.log(filenames);
 
 currentvid=vid1;
 nextvid=vid2;
@@ -206,15 +239,42 @@ function dropdown(){
     generaterandomarray();
 }
 
+
+
+
+
+
+
+
 function setloop(){
-    if(vid1.loop==false){
-        vid1.loop=true;
-        vid2.loop=true;
+    var loopbutton=document.getElementById("loopbutton");
+
+    if(loopmode==false){
+        loopmode=true;
+        loopbutton.innerHTML="loop on";
     }
-    else
-    if(vid1.loop==true){
-        vid1.loop=false;
-        vid2.loop=false;
+    else{
+        loopmode=false;
+        loopbutton.innerHTML="loop off";
     }
 }
 
+function setauto(){
+    var autobutton=document.getElementById("autobutton");
+    var loopbutton=document.getElementById("loopbutton");
+    if(automode==false){
+        automode=true;
+        loopmode=true;
+       autobutton.innerHTML="auto on";
+       loopbutton.innterHTML="loop on";
+    }
+    else{
+        automode=false;
+        loopmode=false;
+        autobutton.innerHTML="auto off";
+        loopbutton.innterHTML="loop off";
+
+    }
+
+    playcount=0;
+}
