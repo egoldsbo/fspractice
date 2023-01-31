@@ -1,45 +1,61 @@
-self.addEventListener("install", e => {
-    console.log("installing service worker");
-    e.waitUntil(
-    caches.open("static").then(cache => {
-    return cache.addAll([
-    //addbookhere
-    "/",
-    "./index.html",
-    "./manifest.json",
-    "./sw.js",
-    "./logo192.png",
-    "./logo512.png",
-    ]);
-    }).then(() => {
-    self.skipWaiting();
+const cacheName = 'cache-v8';
+
+// Files to cache
+const cacheFiles = [
+  '/',
+  'index.html',
+  'style.css',
+  'app.js',
+  "logo192.png",
+  "logo512.png",
+
+];
+
+// Install Service Worker
+self.addEventListener('install', event => {
+  event.waitUntil(
+    caches.open(cacheName).then(cache => {
+      console.log('Cache opened');
+      return cache.addAll(cacheFiles);
     })
-    );
-    });
-    
-    self.addEventListener("activate", e => {
-        e.waitUntil(
-            caches.keys().then(keys => {
-                return Promise.all(keys.map(key => caches.delete(key)));
+  );
+});
+
+// Fetch Event
+self.addEventListener('fetch', event => {
+  event.respondWith(
+    caches.match(event.request).then(response => {
+      if (response) {
+        console.log('Found in cache: ', event.request.url);
+        return response;
+      }
+      console.log('Network request for ', event.request.url);
+      return fetch(event.request).then(response => {
+        if (!response || response.status !== 200 || response.type !== 'basic') {
+          return response;
+        }
+        const responseClone = response.clone();
+        caches.open(cacheName).then(cache => {
+          cache.put(event.request, responseClone);
+        });
+        return response;
+      });
+    })
+  );
+});
+
+self.addEventListener('activate', event => {
+    event.waitUntil(
+      caches.keys().then(cacheNames => {
+        return Promise.all(
+          cacheNames
+            .filter(cacheName => {
+              return cacheName.startsWith('cache-') && cacheName !== cacheName;
             })
-            .then(() => {
-                return caches.open("static").then(cache => {
-                    return cache.addAll([
-                        // add files to be cached here
-                    ]);
-                });
-            })
-            .then(() => {
-                self.clients.claim();
+            .map(cacheName => {
+              return caches.delete(cacheName);
             })
         );
-    });
-    
-    self.addEventListener("fetch", e => {
-    console.log("fetching service worker");
-    e.respondWith(
-    caches.match(e.request).then(response => {
-    return response || fetch(e.request);
-    })
+      })
     );
-    });
+  });

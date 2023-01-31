@@ -1,21 +1,36 @@
+// Check if service worker is supported by browser
 if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function() {
-        navigator.serviceWorker.register('sw.js').then(registration => {
-            console.log('SW registered: ', registration);
-        }).catch(registrationError => {
-            console.log('SW registration failed: ', registrationError);
+    window.addEventListener('load', () => {
+      navigator.serviceWorker
+        .register('/sw.js')
+        .then(registration => {
+          console.log('Service Worker Registered');
+        })
+        .catch(err => {
+          console.error('Service Worker Registration Failed: ', err);
         });
     });
   }
 
+  var mostcommonsigns = ["again.mp4", "also.mp4", "ask.mp4", "because.mp4", "boy.mp4", 
+  "but.mp4", "can.mp4", "come.mp4", "condone.mp4", "deaf.mp4", "different.mp4", 
+  "drink.mp4", "drive.mp4", "eat.mp4", "email.mp4", "family.mp4", "feel.mp4",
+   "few.mp4", "find.mp4", "fine.mp4", "fingerspell.mp4", "finish.mp4", 
+   "food.mp4", "for.mp4", "forget.mp4", "friend.mp4", "get.mp4", "girl.mp4", "give.mp4",
+    "go.mp4", "good.mp4", "have.mp4", "he.mp4", "hearing.mp4", "hello.mp4", "help.mp4", 
+    "home.mp4", "how.mp4", "Internet.mp4", "know.mp4", "later.mp4", "like.mp4",
+     "little.mp4", "live.mp4", "man.mp4", "many.mp4", "me.mp4", "meet.mp4", "more.mp4", 
+     "my.mp4", "name.mp4", "need.mp4", "new.mp4", "no.mp4", "not.mp4", "now.mp4", 
+     "ok.mp4", "old.mp4", "other.mp4", "please.mp4", "remember.mp4", "same.mp4", 
+     "say.mp4", "school.mp4", "see.mp4", "she.mp4", "should.mp4", "sign.mp4",
+      "slow.mp4", "some.mp4", "sorry.mp4", "store.mp4", "take.mp4", "tell.mp4",
+       "text.mp4", "thanks.mp4", "their.mp4", "they.mp4", "think.mp4", "time.mp4", 
+       "tired.mp4", "try.mp4", "understand.mp4", "use.mp4", "wait.mp4", "want.mp4", 
+       "what.mp4", "when.mp4", "where.mp4", "which.mp4", "who.mp4", "why.mp4", 
+       "will.mp4", "with.mp4", "woman.mp4", "work.mp4", "write.mp4", "yes.mp4",
+        "you.mp4", "your.mp4"];
 
-var mostcommonsigns=["again.mp4","also.mp4","ask.mp4","because.mp4","boy.mp4","but.mp4","can.mp4",
-"come.mp4","condone.mp4","deaf.mp4","different.mp4","drink.mp4","drive.mp4","eat.mp4","email.mp4",
-"family.mp4","feel.mp4","few.mp4","find.mp4","fine.mp4","fingerspell.mp4","finish.mp4","food.mp4",
-"for.mp4","forget.mp4","friend.mp4","get.mp4","girl.mp4","give.mp4","go.mp4","good.mp4","have.mp4",
-"he.mp4","hearing.mp4","hello.mp4","help.mp4","home.mp4","how.mp4","internet.mp4","know.mp4","later.mp4",
-"like.mp4","little.mp4","live.mp4","man.mp4","many.mp4","me.mp4","meet.mp4","more.mp4","my.mp4","name.mp4",
-"need.mp4"];
+
 var mostcommonsigns2 = ["about.mp4", "after.mp4", "against.mp4", "answer.mp4", "any.mp4", "arrive.mp4", 
 "bad.mp4", "beautiful.mp4", "before.mp4", "better.mp4", "big.mp4", "bring.mp4", "busy.mp4", "buy.mp4", 
 "change.mp4", "cleanup.mp4", "close.mp4", "cold.mp4", "color.mp4", "day.mp4", "early.mp4", "easy.mp4", 
