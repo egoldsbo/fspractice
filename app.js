@@ -31,13 +31,21 @@ if ('serviceWorker' in navigator) {
         "you.mp4", "your.mp4"];
 
 
-var mostcommonsigns2 = ["about.mp4", "after.mp4", "against.mp4", "answer.mp4", "any.mp4", "arrive.mp4", 
-"bad.mp4", "beautiful.mp4", "before.mp4", "better.mp4", "big.mp4", "bring.mp4", "busy.mp4", "buy.mp4", 
-"change.mp4", "cleanup.mp4", "close.mp4", "cold.mp4", "color.mp4", "day.mp4", "early.mp4", "easy.mp4", 
-"enough.mp4", "every.mp4", "false.mp4", "far.mp4", "fast.mp4", "follow.mp4", "from.mp4", "gone.mp4", 
-"happy.mp4", "hard.mp4", "here.mp4", "hot.mp4", "hurt.mp4", "improve.mp4", "in.mp4", "inform.mp4",
- "interpreter.mp4", "keep.mp4", "last.mp4", "late.mp4", "learn.mp4", "leave.mp4", "lookfor.mp4", "lot.mp4",
-  "make.mp4", "meaning.mp4", "minute.mp4", "month.mp4"];
+        var mostcommonsigns2 = ["about", "after", "against", "answer", "any",
+         "arrive", "beautiful", "because", "before", "better", "big", "bring", 
+         "busy", "buy", "change", "cleanup", "close", "cold", "color", "day", 
+         "early", "easy", "enough", "every", "false", "far", "fast", "follow",
+          "from", "gone", "happy", "hard", "here", "hot", "hurt", "improve",
+           "in", "inform", "interpreter", "keep", "last", "late", "learn",
+            "leave", "search", "lot", "make", "meaning", "minute", "month",
+             "morning", "most", "must", "near", "never", "next", "night",
+              "nothing", "only", "open", "opposite", "out", "people", "plan", 
+              "practice", "prefer", "question", "read", "ready", "rest", "right",
+               "run", "sad", "send", "show", "sit", "sleep", "small", "something",
+                "sometimes", "start", "stay", "still", "stop", "support", "talk", 
+                "teach", "than", "thing", "today", "toilet", "tomorrow", "true", 
+                "until", "visit", "walk", "warm", "watch", "wrong", "yesterday"];
+
 
 
 
@@ -54,7 +62,7 @@ var vid2=document.getElementById("vid2");
 var currentvid=vid1;
 var nextvid=vid2;
 var fileindex=0;
-var speedsarray=[.25,0.5,1,1.5,2,2.5,3,3.5,4];
+var speedsarray=[.25,0.5,1,1.5,2,2.5,3,3.5,4,4.5,5];
 var speedindex=2;
 var currentspeed=1;
 var playcount=0;
