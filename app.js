@@ -267,7 +267,7 @@ function dropdown(){
             filearray[i]=mostcommonsigns2[i];
         }
         dir="mostcommonsigns2/";
-
+    }
         if(selectedOption=="mostcommonsigns3"){
             for(var i=0; i<mostcommonsigns3.length;i++){
                 filearray[i]=mostcommonsigns3[i];
@@ -317,3 +317,5 @@ function setauto(){
 
     playcount=0;
 }
+
+
