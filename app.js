@@ -11,7 +11,7 @@ if ('serviceWorker' in navigator) {
         });
     });
   }
-
+//addnewsigns
   var mostcommonsigns = ["again.mp4", "also.mp4", "ask.mp4", "because.mp4", "boy.mp4", 
   "but.mp4", "can.mp4", "come.mp4", "condone.mp4", "deaf.mp4", "different.mp4", 
   "drink.mp4", "drive.mp4", "eat.mp4", "email.mp4", "family.mp4", "feel.mp4",
@@ -46,8 +46,17 @@ if ('serviceWorker' in navigator) {
                 "teach", "than", "thing", "today", "toilet", "tomorrow", "true", 
                 "until", "visit", "walk", "warm", "watch", "wrong", "yesterday"];
 
-
-
+                var mostcommonsigns3 = ['accept', 'afternoon', 'agree', 'allow', 'almost', 'alone', 'always', 'and', 'angry', 'animal',
+                'anything', 'argue', 'ASL', 'attitude', 'autumn', 'average', 'avoid', 'away', 'basic', 'believe',
+                'best', 'book', 'both', 'brother', 'calm', 'car', 'class', 'close', 'comfortable', 'deep',
+                'doubt', 'English', 'everyday', 'everything', 'example', 'father', 'funny', 'game', 'gift', 'grow',
+                'guess', 'happen', 'hear', 'hold', 'house', 'idea', 'if', 'important', 'include', 'joke',
+                'letter', 'life', 'looklike', 'lose', 'love', 'money', 'mother', 'move', 'movie', 'normal',
+                'number', 'offspring', 'outside', 'overlook', 'paper', 'party', 'pay', 'pen', 'picture', 'play',
+                'problem', 'room', 'safe', 'sell', 'service', 'share', 'sick', 'since', 'sister', 'smart',
+                'soon', 'spring', 'story', 'struggle', 'study', 'summer', 'sure', 'that', 'travel', 'wash',
+                'water', 'week', 'weekend', 'winter', 'wish', 'word', 'worse', 'notyet', 'young', 'yourself'
+                ];
 
 
 
@@ -244,6 +253,7 @@ function openLink(ww) {
 }
 
 function dropdown(){
+    //addnewsigns
     filearray=[];
     var selectedOption = document.getElementById("mySelect").value;
     if(selectedOption=="mostcommonsigns"){
@@ -258,7 +268,13 @@ function dropdown(){
         }
         dir="mostcommonsigns2/";
 
-    }
+        if(selectedOption=="mostcommonsigns3"){
+            for(var i=0; i<mostcommonsigns3.length;i++){
+                filearray[i]=mostcommonsigns3[i];
+            }
+            dir="mostcommonsigns3/";
+    
+        }
     generaterandomarray();
 }
 
