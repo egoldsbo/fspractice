@@ -1,6 +1,6 @@
 
 
-const cacheName = 'cache-v17';
+const cacheName = 'cache-v18';
 //addnewsigns
 // Files to cache
 const cacheFiles = [
@@ -27,7 +27,73 @@ const cacheFiles = [
      "mostcommonsigns/tired.mp4","mostcommonsigns/try.mp4","mostcommonsigns/understand.mp4","mostcommonsigns/use.mp4","mostcommonsigns/wait.mp4","mostcommonsigns/want.mp4", 
      "mostcommonsigns/what.mp4","mostcommonsigns/when.mp4","mostcommonsigns/where.mp4","mostcommonsigns/which.mp4","mostcommonsigns/who.mp4","mostcommonsigns/why.mp4", 
      "mostcommonsigns/will.mp4","mostcommonsigns/with.mp4","mostcommonsigns/woman.mp4","mostcommonsigns/work.mp4","mostcommonsigns/write.mp4","mostcommonsigns/yes.mp4",
-     "mostcommonsigns/you.mp4", "mostcommonsigns/your.mp4"
+     "mostcommonsigns/you.mp4", "mostcommonsigns/your.mp4",
+
+'mostcommonsigns3/accept.mp4',  'mostcommonsigns3/afternoon.mp4',  'mostcommonsigns3/agree.mp4',
+'mostcommonsigns3/allow.mp4',  'mostcommonsigns3/almost.mp4',  'mostcommonsigns3/alone.mp4',  
+'mostcommonsigns3/always.mp4',  'mostcommonsigns3/and.mp4',  'mostcommonsigns3/angry.mp4',  
+'mostcommonsigns3/animal.mp4',  'mostcommonsigns3/anything.mp4',  'mostcommonsigns3/argue.mp4', 
+ 'mostcommonsigns3/ASL.mp4',  'mostcommonsigns3/attitude.mp4',  'mostcommonsigns3/autumn.mp4', 
+  'mostcommonsigns3/average.mp4',  'mostcommonsigns3/avoid.mp4',  'mostcommonsigns3/away.mp4', 
+   'mostcommonsigns3/basic.mp4',  'mostcommonsigns3/believe.mp4',  'mostcommonsigns3/best.mp4', 
+    'mostcommonsigns3/book.mp4',  'mostcommonsigns3/both.mp4',  'mostcommonsigns3/brother.mp4', 
+     'mostcommonsigns3/calm.mp4',  'mostcommonsigns3/car.mp4',  'mostcommonsigns3/class.mp4', 
+     
+     'mostcommonsigns3/close.mp4',  'mostcommonsigns3/comfortable.mp4', 
+      'mostcommonsigns3/deep.mp4',  'mostcommonsigns3/doubt.mp4', 
+      
+      'mostcommonsigns3/English.mp4',  'mostcommonsigns3/everyday.mp4', 
+       'mostcommonsigns3/everything.mp4',  'mostcommonsigns3/example.mp4', 
+        'mostcommonsigns3/father.mp4',  'mostcommonsigns3/funny.mp4',  
+        'mostcommonsigns3/game.mp4',  'mostcommonsigns3/gift.mp4',  
+        
+        'mostcommonsigns3/grow.mp4',  'mostcommonsigns3/guess.mp4', 
+         'mostcommonsigns3/happen.mp4',  'mostcommonsigns3/hear.mp4',  'mostcommonsigns3/hold.mp4',  
+         'mostcommonsigns3/house.mp4',  'mostcommonsigns3/idea.mp4',  'mostcommonsigns3/if.mp4', 
+          'mostcommonsigns3/important.mp4',  'mostcommonsigns3/include.mp4',  'mostcommonsigns3/joke.mp4', 
+           'mostcommonsigns3/letter.mp4',  'mostcommonsigns3/life.mp4',  'mostcommonsigns3/looklike.mp4',  
+           'mostcommonsigns3/lose.mp4',  'mostcommonsigns3/love.mp4',  'mostcommonsigns3/money.mp4', 
+            'mostcommonsigns3/mother.mp4',  'mostcommonsigns3/move.mp4',  'mostcommonsigns3/movie.mp4', 
+             'mostcommonsigns3/normal.mp4',  'mostcommonsigns3/number.mp4',  'mostcommonsigns3/offspring.mp4',  
+             'mostcommonsigns3/outside.mp4',  'mostcommonsigns3/overlook.mp4',  'mostcommonsigns3/paper.mp4',
+               'mostcommonsigns3/party.mp4',  'mostcommonsigns3/pay.mp4',  'mostcommonsigns3/pen.mp4',  'mostcommonsigns3/picture.mp4',  
+               'mostcommonsigns3/play.mp4',  'mostcommonsigns3/problem.mp4',  'mostcommonsigns3/room.mp4',  'mostcommonsigns3/safe.mp4',  
+               'mostcommonsigns3/sell.mp4',  'mostcommonsigns3/service.mp4',  'mostcommonsigns3/share.mp4',  'mostcommonsigns3/sick.mp4',  
+               'mostcommonsigns3/since.mp4',  'mostcommonsigns3/sister.mp4',  'mostcommonsigns3/smart.mp4',  'mostcommonsigns3/soon.mp4', 
+                'mostcommonsigns3/spring.mp4',  'mostcommonsigns3/story.mp4',  'mostcommonsigns3/struggle.mp4',  'mostcommonsigns3/study.mp4', 
+                 'mostcommonsigns3/summer.mp4',  'mostcommonsigns3/sure.mp4',  'mostcommonsigns3/that.mp4',  'mostcommonsigns3/travel.mp4', 
+                  'mostcommonsigns3/wash.mp4',  'mostcommonsigns3/water.mp4',  'mostcommonsigns3/week.mp4',  'mostcommonsigns3/weekend.mp4', 
+                   'mostcommonsigns3/winter.mp4',  'mostcommonsigns3/wish.mp4',  'mostcommonsigns3/word.mp4',  'mostcommonsigns3/worse.mp4', 
+                    'mostcommonsigns3/notyet.mp4',  'mostcommonsigns3/young.mp4',  'mostcommonsigns3/yourself.mp4'
+
+
+,'mostcommonsigns3/about.mp4',  'mostcommonsigns3/after.mp4',  'mostcommonsigns3/against.mp4',  'mostcommonsigns3/answer.mp4', 
+ 'mostcommonsigns3/any.mp4',  'mostcommonsigns3/arrive.mp4',  'mostcommonsigns3/beautiful.mp4',  'mostcommonsigns3/because.mp4',  
+ 'mostcommonsigns3/before.mp4',  'mostcommonsigns3/better.mp4',  'mostcommonsigns3/big.mp4',  'mostcommonsigns3/bring.mp4',  
+ 'mostcommonsigns3/busy.mp4',  'mostcommonsigns3/buy.mp4',  'mostcommonsigns3/change.mp4',  'mostcommonsigns3/cleanup.mp4',
+  'mostcommonsigns3/close.mp4',  'mostcommonsigns3/cold.mp4',  'mostcommonsigns3/color.mp4',  'mostcommonsigns3/day.mp4', 
+   'mostcommonsigns3/early.mp4',  'mostcommonsigns3/easy.mp4',  'mostcommonsigns3/enough.mp4',  'mostcommonsigns3/every.mp4', 
+    'mostcommonsigns3/false.mp4',  'mostcommonsigns3/far.mp4',  'mostcommonsigns3/fast.mp4',  'mostcommonsigns3/follow.mp4', 
+     'mostcommonsigns3/from.mp4',  'mostcommonsigns3/gone.mp4',  'mostcommonsigns3/happy.mp4',  'mostcommonsigns3/hard.mp4', 
+      'mostcommonsigns3/here.mp4',  'mostcommonsigns3/hot.mp4',  'mostcommonsigns3/hurt.mp4',  'mostcommonsigns3/improve.mp4', 
+       'mostcommonsigns3/in.mp4',  'mostcommonsigns3/inform.mp4',  'mostcommonsigns3/interpreter.mp4',  'mostcommonsigns3/keep.mp4',  
+       'mostcommonsigns3/last.mp4',  'mostcommonsigns3/late.mp4',  'mostcommonsigns3/learn.mp4',  'mostcommonsigns3/leave.mp4', 
+        'mostcommonsigns3/search.mp4',  'mostcommonsigns3/lot.mp4',  'mostcommonsigns3/make.mp4',  'mostcommonsigns3/meaning.mp4', 
+         'mostcommonsigns3/minute.mp4',  'mostcommonsigns3/month.mp4',  'mostcommonsigns3/morning.mp4',  'mostcommonsigns3/most.mp4',
+           'mostcommonsigns3/must.mp4',  'mostcommonsigns3/near.mp4',  'mostcommonsigns3/never.mp4',  'mostcommonsigns3/next.mp4', 
+            'mostcommonsigns3/night.mp4',  'mostcommonsigns3/nothing.mp4',  'mostcommonsigns3/only.mp4',  'mostcommonsigns3/open.mp4', 
+             'mostcommonsigns3/opposite.mp4',  'mostcommonsigns3/out.mp4',  'mostcommonsigns3/people.mp4',  'mostcommonsigns3/plan.mp4', 
+              'mostcommonsigns3/practice.mp4',  'mostcommonsigns3/prefer.mp4',  'mostcommonsigns3/question.mp4',  'mostcommonsigns3/read.mp4', 
+               'mostcommonsigns3/ready.mp4',  'mostcommonsigns3/rest.mp4',  'mostcommonsigns3/right.mp4',  'mostcommonsigns3/run.mp4', 
+                'mostcommonsigns3/sad.mp4',  'mostcommonsigns3/send.mp4',  'mostcommonsigns3/show.mp4',  'mostcommonsigns3/sit.mp4', 
+                 'mostcommonsigns3/sleep.mp4',  'mostcommonsigns3/small.mp4',  'mostcommonsigns3/something.mp4',  'mostcommonsigns3/sometimes.mp4',  
+                 'mostcommonsigns3/start.mp4',  'mostcommonsigns3/stay.mp4',  'mostcommonsigns3/still.mp4',  'mostcommonsigns3/stop.mp4',  
+                 'mostcommonsigns3/support.mp4',  'mostcommonsigns3/talk.mp4',  'mostcommonsigns3/teach.mp4',  'mostcommonsigns3/than.mp4', 
+                  'mostcommonsigns3/thing.mp4',  'mostcommonsigns3/today.mp4',  'mostcommonsigns3/toilet.mp4',  'mostcommonsigns3/tomorrow.mp4', 
+                   'mostcommonsigns3/true.mp4',  'mostcommonsigns3/until.mp4',  'mostcommonsigns3/visit.mp4',  'mostcommonsigns3/walk.mp4', 
+                    'mostcommonsigns3/warm.mp4',  'mostcommonsigns3/watch.mp4',  'mostcommonsigns3/wrong.mp4',  'mostcommonsigns3/yesterday.mp4' 
+
+
 
 ];
 

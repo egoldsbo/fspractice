@@ -31,31 +31,47 @@ if ('serviceWorker' in navigator) {
         "you.mp4", "your.mp4"];
 
 
-        var mostcommonsigns2 = ["about", "after", "against", "answer", "any",
-         "arrive", "beautiful", "because", "before", "better", "big", "bring", 
-         "busy", "buy", "change", "cleanup", "close", "cold", "color", "day", 
-         "early", "easy", "enough", "every", "false", "far", "fast", "follow",
-          "from", "gone", "happy", "hard", "here", "hot", "hurt", "improve",
-           "in", "inform", "interpreter", "keep", "last", "late", "learn",
-            "leave", "search", "lot", "make", "meaning", "minute", "month",
-             "morning", "most", "must", "near", "never", "next", "night",
-              "nothing", "only", "open", "opposite", "out", "people", "plan", 
-              "practice", "prefer", "question", "read", "ready", "rest", "right",
-               "run", "sad", "send", "show", "sit", "sleep", "small", "something",
-                "sometimes", "start", "stay", "still", "stop", "support", "talk", 
-                "teach", "than", "thing", "today", "toilet", "tomorrow", "true", 
-                "until", "visit", "walk", "warm", "watch", "wrong", "yesterday"];
+        var mostcommonsigns2 = ['about.mp4',  'after.mp4',  'against.mp4',  'answer.mp4', 
+         'any.mp4',  'arrive.mp4',  'beautiful.mp4',  'because.mp4',  'before.mp4', 
+          'better.mp4',  'big.mp4',  'bring.mp4',  'busy.mp4',  'buy.mp4',  'change.mp4', 
+           'cleanup.mp4',  'close.mp4',  'cold.mp4',  'color.mp4',  'day.mp4',  'early.mp4',
+             'easy.mp4',  'enough.mp4',  'every.mp4',  'false.mp4',  'far.mp4',  'fast.mp4',
+    'follow.mp4',  'from.mp4',  'gone.mp4',  'happy.mp4',  'hard.mp4',  'here.mp4',
+    'hot.mp4',  'hurt.mp4',  'improve.mp4',  'in.mp4',  'inform.mp4',  
+    'interpreter.mp4',  'keep.mp4',  'last.mp4',  'late.mp4',  'learn.mp4', 
+    'leave.mp4',  'search.mp4',  'lot.mp4',  'make.mp4',  'meaning.mp4', 
+    'minute.mp4',  'month.mp4',  'morning.mp4',  'most.mp4',  'must.mp4', 
+    'near.mp4',  'never.mp4',  'next.mp4',  'night.mp4',  'nothing.mp4', 'only.mp4', 
+     'open.mp4',  'opposite.mp4',  'out.mp4',  'people.mp4', 
+    'plan.mp4',  'practice.mp4',  'prefer.mp4',  'question.mp4',  'read.mp4',
+     'ready.mp4',  'rest.mp4',  'right.mp4',  'run.mp4',  'sad.mp4', 
+      'send.mp4',  'show.mp4',  'sit.mp4',  'sleep.mp4',  'small.mp4', 
+      'something.mp4',  'sometimes.mp4',  'start.mp4',  'stay.mp4',  
+        'still.mp4',  'stop.mp4',  'support.mp4',  'talk.mp4',  'teach.mp4', 
+         'than.mp4',  'thing.mp4',  'today.mp4',  'toilet.mp4',  
+         'tomorrow.mp4',  'true.mp4',  'until.mp4',  'visit.mp4',  'walk.mp4',  
+         'warm.mp4',  'watch.mp4',  'wrong.mp4',  'yesterday.mp4' 
+    ];
 
-                var mostcommonsigns3 = ['accept', 'afternoon', 'agree', 'allow', 'almost', 'alone', 'always', 'and', 'angry', 'animal',
-                'anything', 'argue', 'ASL', 'attitude', 'autumn', 'average', 'avoid', 'away', 'basic', 'believe',
-                'best', 'book', 'both', 'brother', 'calm', 'car', 'class', 'close', 'comfortable', 'deep',
-                'doubt', 'English', 'everyday', 'everything', 'example', 'father', 'funny', 'game', 'gift', 'grow',
-                'guess', 'happen', 'hear', 'hold', 'house', 'idea', 'if', 'important', 'include', 'joke',
-                'letter', 'life', 'looklike', 'lose', 'love', 'money', 'mother', 'move', 'movie', 'normal',
-                'number', 'offspring', 'outside', 'overlook', 'paper', 'party', 'pay', 'pen', 'picture', 'play',
-                'problem', 'room', 'safe', 'sell', 'service', 'share', 'sick', 'since', 'sister', 'smart',
-                'soon', 'spring', 'story', 'struggle', 'study', 'summer', 'sure', 'that', 'travel', 'wash',
-                'water', 'week', 'weekend', 'winter', 'wish', 'word', 'worse', 'notyet', 'young', 'yourself'
+var mostcommonsigns3 = ['accept.mp4',  'afternoon.mp4',  'agree.mp4',  'allow.mp4',  
+'almost.mp4',  'alone.mp4',  'always.mp4',  'and.mp4',  'angry.mp4',  'animal.mp4', 
+ 'anything.mp4',  'argue.mp4',  'ASL.mp4',  'attitude.mp4',  'autumn.mp4',  'average.mp4',  
+ 'avoid.mp4',  'away.mp4',  'basic.mp4',  'believe.mp4',  'best.mp4',  'book.mp4',  
+ 'both.mp4',  'brother.mp4',  'calm.mp4',  'car.mp4',  'class.mp4',  'close.mp4',  
+ 'comfortable.mp4',  'deep.mp4',  'doubt.mp4',  'English.mp4',  'everyday.mp4',  
+ 'everything.mp4',  'example.mp4',  'father.mp4',  'funny.mp4',  'game.mp4',  'gift.mp4', 
+  'grow.mp4',  'guess.mp4',  'happen.mp4',  'hear.mp4',  'hold.mp4',  'house.mp4', 
+   'idea.mp4',  'if.mp4',  'important.mp4',  'include.mp4',  'joke.mp4',  'letter.mp4', 
+    'life.mp4',  'looklike.mp4',  'lose.mp4',  'love.mp4',  'money.mp4',  'mother.mp4', 
+    'move.mp4',  'movie.mp4',  'normal.mp4',  'number.mp4',  'offspring.mp4',  'outside.mp4',
+'overlook.mp4',  'paper.mp4',  'party.mp4',  'pay.mp4',  'pen.mp4',  'picture.mp4', 
+'play.mp4',  'problem.mp4',  'room.mp4',  'safe.mp4',  'sell.mp4',  'service.mp4', 
+'share.mp4',  'sick.mp4',  'since.mp4',  'sister.mp4',  'smart.mp4',  'soon.mp4', 
+          'spring.mp4',  'story.mp4',  'struggle.mp4',  'study.mp4',  'summer.mp4',  'sure.mp4',
+    'that.mp4',  'travel.mp4',  'wash.mp4',  'water.mp4',  'week.mp4',  'weekend.mp4', 
+    'winter.mp4',  'wish.mp4',  'word.mp4',  'worse.mp4',  'notyet.mp4',  'young.mp4', 
+     'yourself.mp4'
+
                 ];
 
 
