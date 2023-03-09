@@ -82,12 +82,12 @@ width:100%;
 }
 
 .aboutclass{
-    font-size: 300%;
+    font-size: 180%;
 height:100%;
 width: 100%;
 display:none;
-background-color: rgb(180, 15, 15);
--webkit-text-fill-color: aqua;
+
+-webkit-text-fill-color: rgb(255, 255, 255);
 }
 
 .ctrlrow1{
