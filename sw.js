@@ -1,6 +1,6 @@
 
 
-const cacheName = 'cache-v18';
+const cacheName = 'cache-v19';
 //addnewsigns
 // Files to cache
 const cacheFiles = [

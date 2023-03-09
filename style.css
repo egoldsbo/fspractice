@@ -81,6 +81,14 @@ width:100%;
     border-color: rgb(91, 91, 91);
 }
 
+.aboutclass{
+    font-size: 300%;
+height:100%;
+width: 100%;
+display:none;
+background-color: rgb(180, 15, 15);
+-webkit-text-fill-color: aqua;
+}
 
 .ctrlrow1{
     display:flex;

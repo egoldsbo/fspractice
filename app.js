@@ -335,3 +335,12 @@ function setauto(){
 }
 
 
+
+function setabout(){
+
+    var about=document.getElementById("about");
+    about.style.display="block";
+    vid1.style.display="none";
+    vid2.style.display="none";
+    console.log("abouton");
+}
