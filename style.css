@@ -1,5 +1,5 @@
 html,body{
-overflow: hidden;
+overflow: scroll;
 background-color: black;
 user-zoom: none;
 user-select: none;
