@@ -334,13 +334,19 @@ function setauto(){
     playcount=0;
 }
 
-
+var aboutstate=0;
 
 function setabout(){
+    if(aboutstate==0){
 
     var about=document.getElementById("about");
     about.style.display="block";
     vid1.style.display="none";
     vid2.style.display="none";
     console.log("abouton");
+    }
+    else{
+
+        next();
+    }
 }

@@ -1,7 +1,6 @@
 html,body{
-overflow: scroll;
+overflow: hidden;
 background-color: black;
-user-zoom: none;
 user-select: none;
 }
 
