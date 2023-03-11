@@ -337,16 +337,18 @@ function setauto(){
 var aboutstate=0;
 
 function setabout(){
+    var about=document.getElementById("about");
     if(aboutstate==0){
 
-    var about=document.getElementById("about");
+    aboutstate=1;
     about.style.display="block";
     vid1.style.display="none";
     vid2.style.display="none";
     console.log("abouton");
     }
     else{
-
+        aboutstate=0;
+        about.style.display="none";
         next();
     }
 }
