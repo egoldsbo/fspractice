@@ -74,6 +74,17 @@ var mostcommonsigns3 = ['accept.mp4',  'afternoon.mp4',  'agree.mp4',  'allow.mp
 
                 ];
 
+                var forevan=[
+'1.mp4', '2.mp4','3.mp4','4.mp4','5.mp4','6.mp4','7.mp4','8.mp4',
+'9.mp4','10.mp4','11.mp4','12.mp4','13.mp4','14.mp4','15.mp4','16.mp4',
+'17.mp4','18.mp4','19.mp4','20.mp4','21.mp4','22.mp4','23.mp4','24.mp4',
+'25.mp4','26.mp4','27.mp4','28.mp4','29.mp4','30.mp4','31.mp4','32.mp4',
+'33.mp4','34.mp4','35.mp4','36.mp4','37.mp4','38.mp4','39.mp4','40.mp4',
+'41.mp4','42.mp4','43.mp4','44.mp4','45.mp4','46.mp4','47.mp4','48.mp4',
+'49.mp4','50.mp4'
+];
+
+var byron=[];
 
 
 var dir= "mostcommonsigns/";
@@ -291,6 +302,14 @@ function dropdown(){
             dir="mostcommonsigns3/";
     
         }
+
+        if(selectedOption=="forevan"){
+            for(var i=0; forevan.length;i++){
+                filearray[i]=forevan[i];
+            }
+            dir="forevan/";
+    
+        }
     generaterandomarray();
 }
 
@@ -335,9 +354,25 @@ function setauto(){
 }
 
 var aboutstate=0;
-
+var aboutcount=0;
+var secretunlock=0;
 function setabout(){
     var about=document.getElementById("about");
+    aboutcount++;
+    if(aboutcount>10&&secretunlock==0){
+        secretunlock=1;
+//putcodehere.
+const selectElement = document.getElementById("mySelect");
+
+// create a new option element
+const newOption = document.createElement("option");
+newOption.value = "forevan";
+newOption.text = "forevan";
+
+// append the new option element to the select element
+selectElement.appendChild(newOption);
+
+    }
     if(aboutstate==0){
 
     aboutstate=1;
