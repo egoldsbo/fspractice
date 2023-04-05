@@ -52,7 +52,7 @@ if ('serviceWorker' in navigator) {
          'tomorrow.mp4',  'true.mp4',  'until.mp4',  'visit.mp4',  'walk.mp4',  
          'warm.mp4',  'watch.mp4',  'wrong.mp4',  'yesterday.mp4' 
     ];
-
+/*
 var mostcommonsigns3 = ['accept.mp4',  'afternoon.mp4',  'agree.mp4',  'allow.mp4',  
 'almost.mp4',  'alone.mp4',  'always.mp4',  'and.mp4',  'angry.mp4',  'animal.mp4', 
  'anything.mp4',  'argue.mp4',  'ASL.mp4',  'attitude.mp4',  'autumn.mp4',  'average.mp4',  
@@ -73,9 +73,9 @@ var mostcommonsigns3 = ['accept.mp4',  'afternoon.mp4',  'agree.mp4',  'allow.mp
      'yourself.mp4'
 
                 ];
-
+*/
                 var byron=[
-'1.mp4', '2.mp4','3.mp4','4.mp4','5.mp4','6.mp4','7.mp4','8.mp4','9.mp4','10.mp4','11.mp4','12.mp4','13.mp4','14.mp4','15.mp4','16.mp4','17.mp4','18.mp4','19.mp4','20.mp4',
+'01.mp4', '02.mp4','03.mp4','04.mp4','05.mp4','06.mp4','07.mp4','08.mp4','09.mp4','10.mp4','11.mp4','12.mp4','13.mp4','14.mp4','15.mp4','16.mp4','17.mp4','18.mp4','19.mp4','20.mp4',
 '21.mp4','22.mp4','23.mp4','24.mp4','25.mp4','26.mp4','27.mp4','28.mp4','29.mp4','30.mp4','31.mp4','32.mp4','33.mp4','34.mp4','35.mp4','36.mp4','37.mp4','38.mp4','39.mp4','40.mp4',
 '41.mp4','42.mp4','43.mp4','44.mp4','45.mp4','46.mp4','47.mp4','48.mp4','49.mp4','50.mp4','51.mp4','52.mp4','53.mp4','54.mp4','55.mp4','56.mp4','57.mp4','58.mp4','59.mp4','60.mp4',
 '61.mp4','62.mp4','63.mp4','64.mp4','65.mp4','66.mp4','67.mp4','68.mp4','69.mp4','70.mp4','71.mp4','72.mp4','73.mp4','74.mp4','75.mp4','76.mp4','77.mp4','78.mp4','79.mp4','80.mp4',
@@ -90,15 +90,6 @@ var mostcommonsigns3 = ['accept.mp4',  'afternoon.mp4',  'agree.mp4',  'allow.mp
 
 
 ];
-
-var forevann=[
-    '1.mp4', '2.mp4','3.mp4','4.mp4','5.mp4','6.mp4','7.mp4','8.mp4','9.mp4','10.mp4','11.mp4','12.mp4','13.mp4','14.mp4','15.mp4','16.mp4','17.mp4','18.mp4','19.mp4','20.mp4',
-    '21.mp4','22.mp4','23.mp4','24.mp4','25.mp4','26.mp4','27.mp4','28.mp4','29.mp4','30.mp4','31.mp4','32.mp4','33.mp4','34.mp4','35.mp4','36.mp4','37.mp4','38.mp4','39.mp4','40.mp4',
-    '41.mp4','42.mp4','43.mp4','44.mp4','45.mp4','46.mp4','47.mp4','48.mp4','49.mp4','50.mp4',
-    
-    
-    
-    ];
 
 
 var dir= "mostcommonsigns/";
@@ -309,30 +300,16 @@ function dropdown(){
         }
         dir="mostcommonsigns2/";
     }
-        if(selectedOption=="mostcommonsigns3"){
-            for(var i=0; i<mostcommonsigns3.length;i++){
-                filearray[i]=mostcommonsigns3[i];
-            }
-            dir="mostcommonsigns3/";
-    
-        }
-
-        if(selectedOption=="forevan"){
-            for(var i=0; forevan.length;i++){
-                filearray[i]=forevan[i];
-            }
-            dir="forevan/";
-    
-            
-        }
-
         if(selectedOption=="byron"){
-            for(var i=0; byron.length;i++){
+            for(var i=0; i<byron.length;i++){
                 filearray[i]=byron[i];
             }
             dir="byron/";
     
         }
+
+  
+
     generaterandomarray();
 }
 
@@ -382,20 +359,10 @@ var secretunlock=0;
 function setabout(){
     var about=document.getElementById("about");
     aboutcount++;
+    
     if(aboutcount>10&&secretunlock==0){
-        secretunlock=1;
-//putcodehere.
+secretunlock=1;
 const selectElement = document.getElementById("mySelect");
-
-// create a new option element
-const newOption = document.createElement("option");
-newOption.value = "forevan";
-newOption.text = "forevan";
-
-// append the new option element to the select element
-selectElement.appendChild(newOption);
-
-
 const newOption2 = document.createElement("option");
 newOption2.value = "byron";
 newOption2.text = "byron";

@@ -1,6 +1,6 @@
 
 
-const cacheName = 'cache-v25';
+const cacheName = 'cache-v26';
 //addnewsigns
 // Files to cache
 const cacheFiles = [
@@ -93,6 +93,23 @@ const cacheFiles = [
                    'mostcommonsigns3/true.mp4',  'mostcommonsigns3/until.mp4',  'mostcommonsigns3/visit.mp4',  'mostcommonsigns3/walk.mp4', 
                     'mostcommonsigns3/warm.mp4',  'mostcommonsigns3/watch.mp4',  'mostcommonsigns3/wrong.mp4',  'mostcommonsigns3/yesterday.mp4' 
 
+,'byron/01.mp4','byron/02.mp4','byron/03.mp4','byron/04.mp4','byron5.mp4','byron/06.mp4','byron/07.mp4','byron/08.mp4','byron/09.mp4','byron/10.mp4','byron/11.mp4','byron/12.mp4','byron/13.mp4','byron/14.mp4',
+'byron/15.mp4','byron/16.mp4','byron/17.mp4','byron/18.mp4','byron/19.mp4','byron/20.mp4','byron/21.mp4','byron/22.mp4','byron/23.mp4','byron/24.mp4','byron/25.mp4','byron/26.mp4','byron/27.mp4','byron/28.mp4',
+'byron/29.mp4','byron/30.mp4','byron/31.mp4','byron/32.mp4','byron/33.mp4','byron/34.mp4','byron/35.mp4','byron/36.mp4','byron/37.mp4','byron/38.mp4','byron/39.mp4','byron/40.mp4','byron/41.mp4','byron/42.mp4',
+'byron/43.mp4','byron/44.mp4','byron/45.mp4','byron/46.mp4','byron/47.mp4','byron/48.mp4','byron/49.mp4','byron/50.mp4','byron/51.mp4','byron/52.mp4','byron/53.mp4','byron/54.mp4','byron/55.mp4','byron/56.mp4',
+'byron/57.mp4','byron/58.mp4','byron/59.mp4','byron/60.mp4','byron/61.mp4','byron/62.mp4','byron/63.mp4','byron/64.mp4','byron/65.mp4','byron/66.mp4','byron/67.mp4','byron/68.mp4','byron/69.mp4','byron/70.mp4',
+'byron/71.mp4','byron/72.mp4','byron/73.mp4','byron/74.mp4','byron/75.mp4','byron/76.mp4','byron/77.mp4','byron/78.mp4','byron/79.mp4','byron/80.mp4','byron/81.mp4','byron/82.mp4','byron/83.mp4','byron/84.mp4',
+'byron/85.mp4','byron/86.mp4','byron/87.mp4','byron/88.mp4','byron/89.mp4','byron/90.mp4','byron/91.mp4','byron/92.mp4','byron/93.mp4','byron/94.mp4','byron/95.mp4','byron/96.mp4','byron/97.mp4','byron/98.mp4',
+'byron/99.mp4','byron/100.mp4','byron/101.mp4','byron/102.mp4','byron/103.mp4','byron/104.mp4','byron/105.mp4','byron/106.mp4','byron/107.mp4','byron/108.mp4','byron/109.mp4','byron/110.mp4','byron/111.mp4','byron/112.mp4',
+'byron/113.mp4','byron/114.mp4','byron/115.mp4','byron/116.mp4','byron/117.mp4','byron/118.mp4','byron/119.mp4','byron/120.mp4','byron/121.mp4','byron/122.mp4','byron/123.mp4','byron/124.mp4','byron/125.mp4','byron/126.mp4',
+'byron/127.mp4','byron/128.mp4','byron/129.mp4','byron/130.mp4','byron/131.mp4','byron/132.mp4','byron/133.mp4','byron/134.mp4','byron/135.mp4','byron/136.mp4','byron/137.mp4','byron/138.mp4','byron/139.mp4','byron/140.mp4',
+'byron/141.mp4','byron/142.mp4','byron/143.mp4','byron/144.mp4','byron/145.mp4','byron/146.mp4','byron/147.mp4','byron/148.mp4','byron/149.mp4','byron/150.mp4','byron/151.mp4','byron/152.mp4','byron/153.mp4','byron/154.mp4',
+'byron/155.mp4','byron/156.mp4','byron/157.mp4','byron/158.mp4','byron/159.mp4','byron/160.mp4','byron/161.mp4','byron/162.mp4','byron/163.mp4','byron/164.mp4','byron/165.mp4','byron/166.mp4','byron/167.mp4','byron/168.mp4',
+'byron/169.mp4','byron/170.mp4','byron/171.mp4','byron/172.mp4','byron/173.mp4','byron/174.mp4','byron/175.mp4','byron/176.mp4','byron/177.mp4','byron/178.mp4','byron/179.mp4','byron/180.mp4','byron/181.mp4','byron/182.mp4',
+'byron/183.mp4','byron/184.mp4','byron/185.mp4','byron/186.mp4','byron/187.mp4','byron/188.mp4','byron/189.mp4','byron/190.mp4','byron/191.mp4','byron/192.mp4','byron/193.mp4','byron/194.mp4','byron/195.mp4','byron/196.mp4',
+'byron/197.mp4','byron/198.mp4','byron/199.mp4','byron/200.mp4','byron/201.mp4','byron/202.mp4','byron/203.mp4','byron/204.mp4','byron/205.mp4','byron/206.mp4','byron/207.mp4','byron/208.mp4','byron/209.mp4','byron/210.mp4',
+
+'byron/211.mp4','byron/212.mp4','byron/213.mp4','byron/214.mp4','byron/215.mp4','byron/216.mp4','byron/217.mp4','byron/218.mp4','byron/219.mp4','byron/220.mp4'
 
 
 ];
