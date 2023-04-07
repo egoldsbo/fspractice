@@ -52,7 +52,7 @@ if ('serviceWorker' in navigator) {
          'tomorrow.mp4',  'true.mp4',  'until.mp4',  'visit.mp4',  'walk.mp4',  
          'warm.mp4',  'watch.mp4',  'wrong.mp4',  'yesterday.mp4' 
     ];
-/*
+
 var mostcommonsigns3 = ['accept.mp4',  'afternoon.mp4',  'agree.mp4',  'allow.mp4',  
 'almost.mp4',  'alone.mp4',  'always.mp4',  'and.mp4',  'angry.mp4',  'animal.mp4', 
  'anything.mp4',  'argue.mp4',  'ASL.mp4',  'attitude.mp4',  'autumn.mp4',  'average.mp4',  
@@ -73,7 +73,7 @@ var mostcommonsigns3 = ['accept.mp4',  'afternoon.mp4',  'agree.mp4',  'allow.mp
      'yourself.mp4'
 
                 ];
-*/
+
                 var byron=[
 '01.mp4', '02.mp4','03.mp4','04.mp4','05.mp4','06.mp4','07.mp4','08.mp4','09.mp4','10.mp4','11.mp4','12.mp4','13.mp4','14.mp4','15.mp4','16.mp4','17.mp4','18.mp4','19.mp4','20.mp4',
 '21.mp4','22.mp4','23.mp4','24.mp4','25.mp4','26.mp4','27.mp4','28.mp4','29.mp4','30.mp4','31.mp4','32.mp4','33.mp4','34.mp4','35.mp4','36.mp4','37.mp4','38.mp4','39.mp4','40.mp4',
@@ -85,12 +85,21 @@ var mostcommonsigns3 = ['accept.mp4',  'afternoon.mp4',  'agree.mp4',  'allow.mp
 '141.mp4','142.mp4','143.mp4','144.mp4','145.mp4','146.mp4','147.mp4','148.mp4','149.mp4','150.mp4','151.mp4','152.mp4','153.mp4','154.mp4','155.mp4','156.mp4','157.mp4','158.mp4','159.mp4','160.mp4',
 '161.mp4','162.mp4','163.mp4','164.mp4','165.mp4','166.mp4','167.mp4','168.mp4','169.mp4','170.mp4','171.mp4','172.mp4','173.mp4','174.mp4','175.mp4','176.mp4','177.mp4','178.mp4','179.mp4','180.mp4',
 '181.mp4','182.mp4','183.mp4','184.mp4','185.mp4','186.mp4','187.mp4','188.mp4','189.mp4','190.mp4','191.mp4','192.mp4','193.mp4','194.mp4','195.mp4','196.mp4','197.mp4','198.mp4','199.mp4','200.mp4',
-'201.mp4','202.mp4','203.mp4','204.mp4','205.mp4','206.mp4','207.mp4','208.mp4','209.mp4','210.mp4','211.mp4','212.mp4','213.mp4','214.mp4','215.mp4','216.mp4','217.mp4','218.mp4','219.mp4','220.mp4',
-
-
-
+'201.mp4','202.mp4','203.mp4','204.mp4','205.mp4','206.mp4','207.mp4','208.mp4','209.mp4','210.mp4','211.mp4','212.mp4','213.mp4','214.mp4','215.mp4','216.mp4','217.mp4','218.mp4','219.mp4'
 ];
-
+var forevan=[
+    '01.mp4', '02.mp4','03.mp4','04.mp4','05.mp4','06.mp4','07.mp4','08.mp4','09.mp4','10.mp4','11.mp4','12.mp4','13.mp4','14.mp4','15.mp4','16.mp4','17.mp4','18.mp4','19.mp4','20.mp4',
+    '21.mp4','22.mp4','23.mp4','24.mp4','25.mp4','26.mp4','27.mp4','28.mp4','29.mp4','30.mp4','31.mp4','32.mp4','33.mp4','34.mp4','35.mp4','36.mp4','37.mp4','38.mp4','39.mp4','40.mp4',
+    '41.mp4','42.mp4','43.mp4','44.mp4','45.mp4','46.mp4','47.mp4','48.mp4','49.mp4','50.mp4','51.mp4','52.mp4','53.mp4','54.mp4','55.mp4','56.mp4','57.mp4','58.mp4','59.mp4','60.mp4',
+    '61.mp4','62.mp4','63.mp4','64.mp4','65.mp4','66.mp4','67.mp4','68.mp4','69.mp4','70.mp4','71.mp4','72.mp4','73.mp4','74.mp4','75.mp4','76.mp4','77.mp4','78.mp4','79.mp4','80.mp4',
+    '81.mp4','82.mp4','83.mp4','84.mp4','85.mp4','86.mp4','87.mp4','88.mp4','89.mp4','90.mp4','91.mp4','92.mp4','93.mp4','94.mp4','95.mp4','96.mp4','97.mp4','98.mp4','99.mp4','100.mp4',
+    '101.mp4','102.mp4','103.mp4','104.mp4','105.mp4','106.mp4','107.mp4','108.mp4','109.mp4','110.mp4','111.mp4','112.mp4','113.mp4','114.mp4','115.mp4','116.mp4','117.mp4','118.mp4','119.mp4','120.mp4',
+    '121.mp4','122.mp4','123.mp4'
+    
+    
+    
+    
+    ];
 
 var dir= "mostcommonsigns/";
 
@@ -300,11 +309,26 @@ function dropdown(){
         }
         dir="mostcommonsigns2/";
     }
+
+    if(selectedOption=="mostcommonsigns3"){
+        for(var i=0; i<mostcommonsigns3.length;i++){
+            filearray[i]=mostcommonsigns3[i];
+        }
+        dir="mostcommonsigns3/";
+    }
         if(selectedOption=="byron"){
             for(var i=0; i<byron.length;i++){
                 filearray[i]=byron[i];
             }
             dir="byron/";
+    
+        }
+
+        if(selectedOption=="forevan"){
+            for(var i=0; i<forevan.length;i++){
+                filearray[i]=forevan[i];
+            }
+            dir="forevan/";
     
         }
 
@@ -363,12 +387,16 @@ function setabout(){
     if(aboutcount>10&&secretunlock==0){
 secretunlock=1;
 const selectElement = document.getElementById("mySelect");
+const newOption = document.createElement("option");
 const newOption2 = document.createElement("option");
 newOption2.value = "byron";
 newOption2.text = "byron";
+newOption.value = "forevan";
+newOption.text = "forevan";
 
 // append the new option element to the select element
 selectElement.appendChild(newOption2);
+selectElement.appendChild(newOption);
 
     }
     if(aboutstate==0){
