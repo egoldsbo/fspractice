@@ -1,6 +1,6 @@
 
 
-const cacheName = 'cache-v26';
+const cacheName = 'cache-v27';
 //addnewsigns
 // Files to cache
 const cacheFiles = [
@@ -128,11 +128,9 @@ const cacheFiles = [
 'dailymoth/127.mp4','dailymoth/128.mp4','dailymoth/129.mp4','dailymoth/130.mp4','dailymoth/131.mp4','dailymoth/132.mp4','dailymoth/133.mp4','dailymoth/134.mp4','dailymoth/135.mp4','dailymoth/136.mp4','dailymoth/137.mp4','dailymoth/138.mp4','dailymoth/139.mp4','dailymoth/140.mp4',
 'dailymoth/141.mp4','dailymoth/142.mp4','dailymoth/143.mp4','dailymoth/144.mp4','dailymoth/145.mp4','dailymoth/146.mp4','dailymoth/147.mp4','dailymoth/148.mp4','dailymoth/149.mp4','dailymoth/150.mp4','dailymoth/151.mp4','dailymoth/152.mp4','dailymoth/153.mp4','dailymoth/154.mp4',
 'dailymoth/155.mp4','dailymoth/156.mp4','dailymoth/157.mp4','dailymoth/158.mp4','dailymoth/159.mp4','dailymoth/160.mp4','dailymoth/161.mp4','dailymoth/162.mp4','dailymoth/163.mp4','dailymoth/164.mp4','dailymoth/165.mp4','dailymoth/166.mp4','dailymoth/167.mp4','dailymoth/168.mp4',
-'dailymoth/169.mp4','dailymoth/170.mp4','dailymoth/171.mp4','dailymoth/172.mp4','dailymoth/173.mp4','dailymoth/174.mp4','dailymoth/175.mp4','dailymoth/176.mp4','dailymoth/177.mp4','dailymoth/178.mp4','dailymoth/179.mp4','dailymoth/180.mp4','dailymoth/181.mp4','dailymoth/182.mp4',
-'dailymoth/183.mp4','dailymoth/184.mp4','dailymoth/185.mp4','dailymoth/186.mp4','dailymoth/187.mp4','dailymoth/188.mp4','dailymoth/189.mp4','dailymoth/190.mp4','dailymoth/191.mp4','dailymoth/192.mp4','dailymoth/193.mp4','dailymoth/194.mp4','dailymoth/195.mp4','dailymoth/196.mp4',
-'dailymoth/197.mp4','dailymoth/198.mp4','dailymoth/199.mp4','dailymoth/200.mp4','dailymoth/201.mp4','dailymoth/202.mp4','dailymoth/203.mp4','dailymoth/204.mp4','dailymoth/205.mp4','dailymoth/206.mp4','dailymoth/207.mp4','dailymoth/208.mp4','dailymoth/209.mp4','dailymoth/210.mp4',
+'dailymoth/169.mp4','dailymoth/170.mp4','dailymoth/171.mp4','dailymoth/172.mp4','dailymoth/173.mp4','dailymoth/174.mp4','dailymoth/175.mp4','dailymoth/176.mp4','dailymoth/177.mp4','dailymoth/178.mp4','dailymoth/179.mp4','dailymoth/180.mp4','dailymoth/181.mp4'
 
-'dailymoth/211.mp4','dailymoth/212.mp4','dailymoth/213.mp4','dailymoth/214.mp4','dailymoth/215.mp4','dailymoth/216.mp4','dailymoth/217.mp4','dailymoth/218.mp4','dailymoth/219.mp4',
+
 
 
 

@@ -16,7 +16,12 @@ flex-flow: row nowrap;
     flex-flow: column nowrap;
     }
     
-
+    .againcol{
+        display: flex;
+        flex-flow: column nowrap;
+        width: 100%;
+        }
+        
 .div1{
 display:block;
     height:97vh;
