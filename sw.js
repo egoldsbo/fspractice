@@ -1,6 +1,6 @@
 
 
-const cacheName = 'cache-v27';
+const cacheName = 'cache-v28';
 //addnewsigns
 // Files to cache
 const cacheFiles = [
@@ -128,7 +128,16 @@ const cacheFiles = [
 'dailymoth/127.mp4','dailymoth/128.mp4','dailymoth/129.mp4','dailymoth/130.mp4','dailymoth/131.mp4','dailymoth/132.mp4','dailymoth/133.mp4','dailymoth/134.mp4','dailymoth/135.mp4','dailymoth/136.mp4','dailymoth/137.mp4','dailymoth/138.mp4','dailymoth/139.mp4','dailymoth/140.mp4',
 'dailymoth/141.mp4','dailymoth/142.mp4','dailymoth/143.mp4','dailymoth/144.mp4','dailymoth/145.mp4','dailymoth/146.mp4','dailymoth/147.mp4','dailymoth/148.mp4','dailymoth/149.mp4','dailymoth/150.mp4','dailymoth/151.mp4','dailymoth/152.mp4','dailymoth/153.mp4','dailymoth/154.mp4',
 'dailymoth/155.mp4','dailymoth/156.mp4','dailymoth/157.mp4','dailymoth/158.mp4','dailymoth/159.mp4','dailymoth/160.mp4','dailymoth/161.mp4','dailymoth/162.mp4','dailymoth/163.mp4','dailymoth/164.mp4','dailymoth/165.mp4','dailymoth/166.mp4','dailymoth/167.mp4','dailymoth/168.mp4',
-'dailymoth/169.mp4','dailymoth/170.mp4','dailymoth/171.mp4','dailymoth/172.mp4','dailymoth/173.mp4','dailymoth/174.mp4','dailymoth/175.mp4','dailymoth/176.mp4','dailymoth/177.mp4','dailymoth/178.mp4','dailymoth/179.mp4','dailymoth/180.mp4','dailymoth/181.mp4'
+'dailymoth/169.mp4','dailymoth/170.mp4','dailymoth/171.mp4','dailymoth/172.mp4','dailymoth/173.mp4','dailymoth/174.mp4','dailymoth/175.mp4','dailymoth/176.mp4','dailymoth/177.mp4','dailymoth/178.mp4','dailymoth/179.mp4','dailymoth/180.mp4','dailymoth/181.mp4','dailymoth/169.mp4','dailymoth/170.mp4','dailymoth/171.mp4','dailymoth/172.mp4','dailymoth/173.mp4','dailymoth/174.mp4','dailymoth/175.mp4','dailymoth/176.mp4','dailymoth/177.mp4','dailymoth/178.mp4','dailymoth/179.mp4','dailymoth/180.mp4','dailymoth/181.mp4',
+'dailymoth/182.mp4','dailymoth/183.mp4','dailymoth/184.mp4','dailymoth/185.mp4','dailymoth/186.mp4','dailymoth/187.mp4','dailymoth/188.mp4','dailymoth/189.mp4','dailymoth/190.mp4','dailymoth/191.mp4','dailymoth/192.mp4','dailymoth/193.mp4','dailymoth/194.mp4','dailymoth/195.mp4',
+'dailymoth/196.mp4','dailymoth/197.mp4','dailymoth/198.mp4','dailymoth/199.mp4','dailymoth/200.mp4','dailymoth/201.mp4','dailymoth/202.mp4','dailymoth/203.mp4','dailymoth/204.mp4','dailymoth/205.mp4','dailymoth/206.mp4','dailymoth/207.mp4','dailymoth/208.mp4','dailymoth/209.mp4',
+'dailymoth/210.mp4','dailymoth/211.mp4','dailymoth/212.mp4','dailymoth/213.mp4','dailymoth/214.mp4','dailymoth/215.mp4','dailymoth/216.mp4','dailymoth/217.mp4','dailymoth/218.mp4','dailymoth/219.mp4','dailymoth/220.mp4','dailymoth/221.mp4','dailymoth/222.mp4','dailymoth/223.mp4',
+'dailymoth/224.mp4','dailymoth/225.mp4','dailymoth/226.mp4','dailymoth/227.mp4','dailymoth/228.mp4','dailymoth/229.mp4','dailymoth/230.mp4','dailymoth/231.mp4','dailymoth/232.mp4','dailymoth/233.mp4','dailymoth/234.mp4','dailymoth/235.mp4','dailymoth/236.mp4','dailymoth/237.mp4',
+'dailymoth/238.mp4','dailymoth/239.mp4','dailymoth/240.mp4','dailymoth/241.mp4','dailymoth/242.mp4','dailymoth/243.mp4','dailymoth/244.mp4','dailymoth/245.mp4','dailymoth/246.mp4','dailymoth/247.mp4','dailymoth/248.mp4','dailymoth/249.mp4','dailymoth/250.mp4','dailymoth/251.mp4',
+'dailymoth/252.mp4','dailymoth/253.mp4','dailymoth/254.mp4','dailymoth/255.mp4','dailymoth/256.mp4','dailymoth/257.mp4','dailymoth/258.mp4','dailymoth/259.mp4','dailymoth/260.mp4','dailymoth/261.mp4','dailymoth/262.mp4','dailymoth/263.mp4','dailymoth/264.mp4','dailymoth/265.mp4',
+'dailymoth/266.mp4','dailymoth/267.mp4','dailymoth/268.mp4','dailymoth/269.mp4','dailymoth/270.mp4','dailymoth/271.mp4','dailymoth/272.mp4','dailymoth/273.mp4','dailymoth/274.mp4','dailymoth/275.mp4','dailymoth/276.mp4','dailymoth/277.mp4','dailymoth/278.mp4','dailymoth/279.mp4',
+'dailymoth/280.mp4','dailymoth/281.mp4','dailymoth/282.mp4','dailymoth/283.mp4','dailymoth/284.mp4','dailymoth/285.mp4','dailymoth/286.mp4','dailymoth/287.mp4','dailymoth/288.mp4','dailymoth/289.mp4','dailymoth/290.mp4','dailymoth/291.mp4','dailymoth/292.mp4',
+
 
 
 
