@@ -3,6 +3,9 @@ html,body{
 overflow: hidden;
 background-color: black;
 user-select: none;
+-webkit-user-select: none;
+user-zoom: none;
+-webkit-user-zoom: none;
 }
 
 .row{
@@ -63,6 +66,8 @@ font-size: 100%;
    border: 3%;
 user-select: none;
 user-zoom: none;
+-webkit-user-select: none;
+-webkit-user-zoom: none;
 }
 
 .labelrow{

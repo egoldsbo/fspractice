@@ -129,7 +129,7 @@ var vid2=document.getElementById("vid2");
 var currentvid=vid1;
 var nextvid=vid2;
 var fileindex=0;
-var speedsarray=[.25,0.5,1,1.5,2,2.5,3,3.5,4,4.5,5];
+var speedsarray=[.1,.25,0.5,1,1.5,2,2.5,3,3.5,4,4.5,5];
 var speedindex=2;
 var currentspeed=1;
 var playcount=0;
@@ -243,6 +243,7 @@ nextvid=vid1;
 
 
 function next(){
+    slowedonce=false;
 togglevideo();
 currentvid.playbackRate=currentspeed;
 currentvid.play()
@@ -253,11 +254,16 @@ if(fileindex>=filearray.length-2){
 }
 }
 
+var slowedonce=false;
 
 function again(isslow){
     currentvid.playbackRate=currentspeed;
     if(isslow==true){
         currentvid.playbackRate=0.5;
+        if(slowedonce==true){
+            currentvid.playbackRate=0.25;
+        }
+        slowedonce=true;
     }   
     currentvid.play();
 }
