@@ -1,6 +1,6 @@
 
 
-const cacheName = 'cache-v30';
+const cacheName = 'cache-v31';
 //addnewsigns
 // Files to cache
 const cacheFiles = [
@@ -92,7 +92,7 @@ const cacheFiles = [
                   'mostcommonsigns3/thing.mp4',  'mostcommonsigns3/today.mp4',  'mostcommonsigns3/toilet.mp4',  'mostcommonsigns3/tomorrow.mp4', 
                    'mostcommonsigns3/true.mp4',  'mostcommonsigns3/until.mp4',  'mostcommonsigns3/visit.mp4',  'mostcommonsigns3/walk.mp4', 
                     'mostcommonsigns3/warm.mp4',  'mostcommonsigns3/watch.mp4',  'mostcommonsigns3/wrong.mp4',  'mostcommonsigns3/yesterday.mp4' 
-
+/*
 ,'byron/01.mp4','byron/02.mp4','byron/03.mp4','byron/04.mp4','byron5.mp4','byron/06.mp4','byron/07.mp4','byron/08.mp4','byron/09.mp4','byron/10.mp4','byron/11.mp4','byron/12.mp4','byron/13.mp4','byron/14.mp4',
 'byron/15.mp4','byron/16.mp4','byron/17.mp4','byron/18.mp4','byron/19.mp4','byron/20.mp4','byron/21.mp4','byron/22.mp4','byron/23.mp4','byron/24.mp4','byron/25.mp4','byron/26.mp4','byron/27.mp4','byron/28.mp4',
 'byron/29.mp4','byron/30.mp4','byron/31.mp4','byron/32.mp4','byron/33.mp4','byron/34.mp4','byron/35.mp4','byron/36.mp4','byron/37.mp4','byron/38.mp4','byron/39.mp4','byron/40.mp4','byron/41.mp4','byron/42.mp4',
@@ -114,8 +114,7 @@ const cacheFiles = [
 'byron/253.mp4','byron/254.mp4','byron/255.mp4','byron/256.mp4','byron/257.mp4','byron/258.mp4','byron/259.mp4','byron/260.mp4','byron/261.mp4','byron/262.mp4','byron/263.mp4','byron/264.mp4','byron/265.mp4','byron/266.mp4',
 'byron/267.mp4','byron/268.mp4','byron/269.mp4','byron/270.mp4','byron/271.mp4','byron/272.mp4','byron/273.mp4','byron/274.mp4','byron/275.mp4','byron/276.mp4','byron/277.mp4','byron/278.mp4','byron/279.mp4','byron/280.mp4',
 'byron/281.mp4','byron/282.mp4','byron/283.mp4','byron/284.mp4','byron/285.mp4','byron/286.mp4','byron/287.mp4','byron/288.mp4','byron/289.mp4','byron/290.mp4','byron/291.mp4','byron/292.mp4','byron/293.mp4','byron/294.mp4',
-'byron/295.mp4','byron/296.mp4','byron/297.mp4','byron/298.mp4','byron/299.mp4',
-
+'byron/295.mp4','byron/296.mp4','byron/297.mp4','byron/298.mp4','byron/299.mp4'*/,
 'dailymoth/01.mp4','dailymoth/02.mp4','dailymoth/03.mp4','dailymoth/04.mp4','dailymoth/05.mp4','dailymoth/06.mp4','dailymoth/07.mp4','dailymoth/08.mp4','dailymoth/09.mp4','dailymoth/10.mp4','dailymoth/11.mp4','dailymoth/12.mp4','dailymoth/13.mp4','dailymoth/14.mp4',
 'dailymoth/15.mp4','dailymoth/16.mp4','dailymoth/17.mp4','dailymoth/18.mp4','dailymoth/19.mp4','dailymoth/20.mp4','dailymoth/21.mp4','dailymoth/22.mp4','dailymoth/23.mp4','dailymoth/24.mp4','dailymoth/25.mp4','dailymoth/26.mp4','dailymoth/27.mp4','dailymoth/28.mp4',
 'dailymoth/29.mp4','dailymoth/30.mp4','dailymoth/31.mp4','dailymoth/32.mp4','dailymoth/33.mp4','dailymoth/34.mp4','dailymoth/35.mp4','dailymoth/36.mp4','dailymoth/37.mp4','dailymoth/38.mp4','dailymoth/39.mp4','dailymoth/40.mp4','dailymoth/41.mp4','dailymoth/42.mp4',
@@ -138,15 +137,7 @@ const cacheFiles = [
 'dailymoth/266.mp4','dailymoth/267.mp4','dailymoth/268.mp4','dailymoth/269.mp4','dailymoth/270.mp4','dailymoth/271.mp4','dailymoth/272.mp4','dailymoth/273.mp4','dailymoth/274.mp4','dailymoth/275.mp4','dailymoth/276.mp4','dailymoth/277.mp4','dailymoth/278.mp4','dailymoth/279.mp4',
 'dailymoth/280.mp4','dailymoth/281.mp4','dailymoth/282.mp4','dailymoth/283.mp4','dailymoth/284.mp4','dailymoth/285.mp4','dailymoth/286.mp4','dailymoth/287.mp4','dailymoth/288.mp4','dailymoth/289.mp4','dailymoth/290.mp4','dailymoth/291.mp4','dailymoth/292.mp4',
 'dailymoth/293.mp4','dailymoth/294.mp4','dailymoth/295.mp4','dailymoth/296.mp4','dailymoth/297.mp4','dailymoth/298.mp4','dailymoth/299.mp4','dailymoth/300.mp4','dailymoth/301.mp4','dailymoth/302.mp4','dailymoth/303.mp4','dailymoth/304.mp4','dailymoth/305.mp4','dailymoth/306.mp4',
-'dailymoth/307.mp4','dailymoth/308.mp4','dailymoth/309.mp4','dailymoth/310.mp4','dailymoth/311.mp4','dailymoth/312.mp4','dailymoth/313.mp4','dailymoth/314.mp4','dailymoth/315.mp4','dailymoth/316.mp4','dailymoth/317.mp4','dailymoth/318.mp4','dailymoth/319.mp4','dailymoth/320.mp4',
-'dailymoth/321.mp4','dailymoth/322.mp4','dailymoth/323.mp4','dailymoth/324.mp4','dailymoth/325.mp4','dailymoth/326.mp4','dailymoth/327.mp4','dailymoth/328.mp4','dailymoth/329.mp4','dailymoth/330.mp4','dailymoth/331.mp4','dailymoth/332.mp4','dailymoth/333.mp4','dailymoth/334.mp4',
-'dailymoth/335.mp4','dailymoth/336.mp4','dailymoth/337.mp4','dailymoth/338.mp4','dailymoth/339.mp4','dailymoth/340.mp4','dailymoth/341.mp4','dailymoth/342.mp4','dailymoth/343.mp4','dailymoth/344.mp4','dailymoth/345.mp4','dailymoth/346.mp4','dailymoth/347.mp4','dailymoth/348.mp4',
-'dailymoth/349.mp4','dailymoth/350.mp4','dailymoth/351.mp4','dailymoth/352.mp4','dailymoth/353.mp4','dailymoth/354.mp4','dailymoth/355.mp4','dailymoth/356.mp4','dailymoth/357.mp4','dailymoth/358.mp4','dailymoth/359.mp4','dailymoth/360.mp4','dailymoth/361.mp4','dailymoth/362.mp4',
-'dailymoth/363.mp4','dailymoth/364.mp4','dailymoth/365.mp4','dailymoth/366.mp4','dailymoth/367.mp4','dailymoth/368.mp4','dailymoth/369.mp4','dailymoth/370.mp4','dailymoth/371.mp4','dailymoth/372.mp4','dailymoth/373.mp4','dailymoth/374.mp4','dailymoth/375.mp4','dailymoth/376.mp4',
-'dailymoth/377.mp4','dailymoth/378.mp4','dailymoth/379.mp4','dailymoth/380.mp4','dailymoth/381.mp4','dailymoth/382.mp4','dailymoth/383.mp4','dailymoth/384.mp4','dailymoth/385.mp4','dailymoth/386.mp4','dailymoth/387.mp4','dailymoth/388.mp4','dailymoth/389.mp4','dailymoth/390.mp4',
-'dailymoth/391.mp4','dailymoth/392.mp4','dailymoth/393.mp4','dailymoth/394.mp4','dailymoth/395.mp4',
-
-
+'dailymoth/307.mp4','dailymoth/308.mp4','dailymoth/309.mp4','dailymoth/310.mp4','dailymoth/311.mp4','dailymoth/312.mp4','dailymoth/313.mp4','dailymoth/314.mp4','dailymoth/315.mp4',
 
 
 
