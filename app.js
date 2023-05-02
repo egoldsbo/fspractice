@@ -414,7 +414,7 @@ function setabout(){
     var about=document.getElementById("about");
     aboutcount++;
     
-    if(aboutcount>10&&secretunlock==0){
+    if(aboutcount>3&&secretunlock==0){
 secretunlock=1;
 const selectElement = document.getElementById("mySelect");
 const newOption = document.createElement("option");
