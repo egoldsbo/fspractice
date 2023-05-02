@@ -4,6 +4,8 @@ overflow: hidden;
 background-color: black;
 user-select: none;
 -webkit-user-select: none;
+-webkit-user-drag: none;
+-moz-user-select:none ;
 user-zoom: none;
 -webkit-user-zoom: none;
 }
@@ -68,6 +70,7 @@ user-select: none;
 user-zoom: none;
 -webkit-user-select: none;
 -webkit-user-zoom: none;
+-moz-user-focus: none;
 }
 
 .labelrow{

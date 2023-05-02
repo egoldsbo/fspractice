@@ -1,6 +1,6 @@
 
 
-const cacheName = 'cache-v31';
+const cacheName = 'cache-v32';
 //addnewsigns
 // Files to cache
 const cacheFiles = [
@@ -115,7 +115,7 @@ const cacheFiles = [
 'byron/267.mp4','byron/268.mp4','byron/269.mp4','byron/270.mp4','byron/271.mp4','byron/272.mp4','byron/273.mp4','byron/274.mp4','byron/275.mp4','byron/276.mp4','byron/277.mp4','byron/278.mp4','byron/279.mp4','byron/280.mp4',
 'byron/281.mp4','byron/282.mp4','byron/283.mp4','byron/284.mp4','byron/285.mp4','byron/286.mp4','byron/287.mp4','byron/288.mp4','byron/289.mp4','byron/290.mp4','byron/291.mp4','byron/292.mp4','byron/293.mp4','byron/294.mp4',
 'byron/295.mp4','byron/296.mp4','byron/297.mp4','byron/298.mp4','byron/299.mp4'*/,
-'dailymoth/01.mp4','dailymoth/02.mp4','dailymoth/03.mp4','dailymoth/04.mp4','dailymoth/05.mp4','dailymoth/06.mp4','dailymoth/07.mp4','dailymoth/08.mp4','dailymoth/09.mp4','dailymoth/10.mp4','dailymoth/11.mp4','dailymoth/12.mp4','dailymoth/13.mp4','dailymoth/14.mp4',
+/*'dailymoth/01.mp4','dailymoth/02.mp4','dailymoth/03.mp4','dailymoth/04.mp4','dailymoth/05.mp4','dailymoth/06.mp4','dailymoth/07.mp4','dailymoth/08.mp4','dailymoth/09.mp4','dailymoth/10.mp4','dailymoth/11.mp4','dailymoth/12.mp4','dailymoth/13.mp4','dailymoth/14.mp4',
 'dailymoth/15.mp4','dailymoth/16.mp4','dailymoth/17.mp4','dailymoth/18.mp4','dailymoth/19.mp4','dailymoth/20.mp4','dailymoth/21.mp4','dailymoth/22.mp4','dailymoth/23.mp4','dailymoth/24.mp4','dailymoth/25.mp4','dailymoth/26.mp4','dailymoth/27.mp4','dailymoth/28.mp4',
 'dailymoth/29.mp4','dailymoth/30.mp4','dailymoth/31.mp4','dailymoth/32.mp4','dailymoth/33.mp4','dailymoth/34.mp4','dailymoth/35.mp4','dailymoth/36.mp4','dailymoth/37.mp4','dailymoth/38.mp4','dailymoth/39.mp4','dailymoth/40.mp4','dailymoth/41.mp4','dailymoth/42.mp4',
 'dailymoth/43.mp4','dailymoth/44.mp4','dailymoth/45.mp4','dailymoth/46.mp4','dailymoth/47.mp4','dailymoth/48.mp4','dailymoth/49.mp4','dailymoth/50.mp4','dailymoth/51.mp4','dailymoth/52.mp4','dailymoth/53.mp4','dailymoth/54.mp4','dailymoth/55.mp4','dailymoth/56.mp4',
@@ -138,7 +138,7 @@ const cacheFiles = [
 'dailymoth/280.mp4','dailymoth/281.mp4','dailymoth/282.mp4','dailymoth/283.mp4','dailymoth/284.mp4','dailymoth/285.mp4','dailymoth/286.mp4','dailymoth/287.mp4','dailymoth/288.mp4','dailymoth/289.mp4','dailymoth/290.mp4','dailymoth/291.mp4','dailymoth/292.mp4',
 'dailymoth/293.mp4','dailymoth/294.mp4','dailymoth/295.mp4','dailymoth/296.mp4','dailymoth/297.mp4','dailymoth/298.mp4','dailymoth/299.mp4','dailymoth/300.mp4','dailymoth/301.mp4','dailymoth/302.mp4','dailymoth/303.mp4','dailymoth/304.mp4','dailymoth/305.mp4','dailymoth/306.mp4',
 'dailymoth/307.mp4','dailymoth/308.mp4','dailymoth/309.mp4','dailymoth/310.mp4','dailymoth/311.mp4','dailymoth/312.mp4','dailymoth/313.mp4','dailymoth/314.mp4','dailymoth/315.mp4',
-
+*/
 
 
 ];
