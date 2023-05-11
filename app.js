@@ -190,10 +190,7 @@ revealword.addEventListener("touchend", function() {
 });
 
 function startup(){
-    if (!navigator.standalone) {
-        alert("alert")
-      }
-    
+
 
 
 
@@ -203,7 +200,10 @@ for(var i=0; i<mostcommonsigns.length;i++){
 }
 dir="mostcommonsigns/";
 generaterandomarray();
-
+if (!navigator.standalone) {
+    setabout();
+     }
+   
 }
 
 
