@@ -1,19 +1,5 @@
 // Check if service worker is supported by browser
 
-if (!navigator.standalone) {
-    alert("
-        for best performance, please add this app to your home screen
-        ios and mac users: click the share button and then 'add to home screen'
-        windows and android users: click the menu button and then 'add to home screen'
-        
-        
-    
-    
-    
-    
-    ");
-  }
-
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
       navigator.serviceWorker
@@ -204,6 +190,14 @@ revealword.addEventListener("touchend", function() {
 });
 
 function startup(){
+    if (!navigator.standalone) {
+        alert("alert")
+      }
+    
+
+
+
+
 for(var i=0; i<mostcommonsigns.length;i++){
     filearray[i]=mostcommonsigns[i];
 }
