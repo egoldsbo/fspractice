@@ -344,11 +344,7 @@ function dropdown(){
         dir="mostcommonsigns2/";
     }
 
-    if(selectedOption=="mostcommonsigns3"){
-        for(var i=0; i<mostcommonsigns3.length;i++){
-            filearray[i]=mostcommonsigns3[i];
-        }
-        dir="mostcommonsigns3/";
+
     
 
         if(selectedOption=="inthewild"){
@@ -430,5 +426,4 @@ function setabout(){
         about.style.display="none";
         next();
     }
-}
 }
