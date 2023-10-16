@@ -75,24 +75,12 @@ var mostcommonsigns3 = ['accept.mp4',  'afternoon.mp4',  'agree.mp4',  'allow.mp
 
                 ];
 
-                var byron=[
-'01.mp4', '02.mp4','03.mp4','04.mp4','05.mp4','06.mp4','07.mp4','08.mp4','09.mp4','10.mp4','11.mp4','12.mp4','13.mp4','14.mp4','15.mp4','16.mp4','17.mp4','18.mp4','19.mp4','20.mp4',
-'21.mp4','22.mp4','23.mp4','24.mp4','25.mp4','26.mp4','27.mp4','28.mp4','29.mp4','30.mp4','31.mp4','32.mp4','33.mp4','34.mp4','35.mp4','36.mp4','37.mp4','38.mp4','39.mp4','40.mp4',
-'41.mp4','42.mp4','43.mp4','44.mp4','45.mp4','46.mp4','47.mp4','48.mp4','49.mp4','50.mp4','51.mp4','52.mp4','53.mp4','54.mp4','55.mp4','56.mp4','57.mp4','58.mp4','59.mp4','60.mp4',
-'61.mp4','62.mp4','63.mp4','64.mp4','65.mp4','66.mp4','67.mp4','68.mp4','69.mp4','70.mp4','71.mp4','72.mp4','73.mp4','74.mp4','75.mp4','76.mp4','77.mp4','78.mp4','79.mp4','80.mp4',
-'81.mp4','82.mp4','83.mp4','84.mp4','85.mp4','86.mp4','87.mp4','88.mp4','89.mp4','90.mp4','91.mp4','92.mp4','93.mp4','94.mp4','95.mp4','96.mp4','97.mp4','98.mp4','99.mp4','100.mp4',
-'101.mp4','102.mp4','103.mp4','104.mp4','105.mp4','106.mp4','107.mp4','108.mp4','109.mp4','110.mp4','111.mp4','112.mp4','113.mp4','114.mp4','115.mp4','116.mp4','117.mp4','118.mp4','119.mp4','120.mp4',
-'121.mp4','122.mp4','123.mp4','124.mp4','125.mp4','126.mp4','127.mp4','128.mp4','129.mp4','130.mp4','131.mp4','132.mp4','133.mp4','134.mp4','135.mp4','136.mp4','137.mp4','138.mp4','139.mp4','140.mp4',
-'141.mp4','142.mp4','143.mp4','144.mp4','145.mp4','146.mp4','147.mp4','148.mp4','149.mp4','150.mp4','151.mp4','152.mp4','153.mp4','154.mp4','155.mp4','156.mp4','157.mp4','158.mp4','159.mp4','160.mp4',
-'161.mp4','162.mp4','163.mp4','164.mp4','165.mp4','166.mp4','167.mp4','168.mp4','169.mp4','170.mp4','171.mp4','172.mp4','173.mp4','174.mp4','175.mp4','176.mp4','177.mp4','178.mp4','179.mp4','180.mp4',
-'181.mp4','182.mp4','183.mp4','184.mp4','185.mp4','186.mp4','187.mp4','188.mp4','189.mp4','190.mp4','191.mp4','192.mp4','193.mp4','194.mp4','195.mp4','196.mp4','197.mp4','198.mp4','199.mp4','200.mp4',
-'201.mp4','202.mp4','203.mp4','204.mp4','205.mp4','206.mp4','207.mp4','208.mp4','209.mp4','210.mp4','211.mp4','212.mp4','213.mp4','214.mp4','215.mp4','216.mp4','217.mp4','218.mp4','219.mp4'
-];
-var forevan=[
+
+var inthewild=[
     '01.mp4', '02.mp4','03.mp4','04.mp4','05.mp4','06.mp4','07.mp4','08.mp4','09.mp4','10.mp4','11.mp4','12.mp4','13.mp4','14.mp4','15.mp4','16.mp4','17.mp4','18.mp4','19.mp4','20.mp4',
     '21.mp4','22.mp4','23.mp4','24.mp4','25.mp4','26.mp4','27.mp4','28.mp4','29.mp4','30.mp4','31.mp4','32.mp4','33.mp4','34.mp4','35.mp4','36.mp4','37.mp4','38.mp4','39.mp4','40.mp4',
     '41.mp4','42.mp4','43.mp4','44.mp4','45.mp4','46.mp4','47.mp4','48.mp4','49.mp4','50.mp4','51.mp4','52.mp4','53.mp4','54.mp4','55.mp4','56.mp4','57.mp4','58.mp4','59.mp4','60.mp4',
-    '61.mp4','62.mp4','63.mp4','64.mp4','65.mp4','66.mp4','67.mp4','68.mp4','69.mp4','70.mp4','71.mp4','72.mp4','73.mp4','74.mp4','75.mp4','76.mp4','77.mp4','78.mp4','79.mp4','80.mp4',
+
     ];
 
 
@@ -125,11 +113,16 @@ var forevan=[
         '466.mp4','467.mp4','468.mp4','469.mp4','470.mp4','471.mp4','472.mp4','473.mp4','474.mp4','475.mp4','476.mp4','477.mp4','478.mp4','479.mp4','480.mp4',
         '481.mp4','482.mp4','483.mp4','484.mp4','485.mp4','486.mp4','487.mp4','488.mp4','489.mp4','490.mp4','491.mp4','492.mp4','493.mp4','494.mp4','495.mp4',
         '496.mp4','497.mp4','498.mp4','499.mp4','500.mp4','501.mp4','502.mp4','503.mp4','504.mp4',
+        '505.mp4','506.mp4','507.mp4','508.mp4','509.mp4','510.mp4','511.mp4','512.mp4','513.mp4','514.mp4','515.mp4','516.mp4','517.mp4','518.mp4','519.mp4','520.mp4',
+        '521.mp4','522.mp4','523.mp4','524.mp4','525.mp4','526.mp4','527.mp4','528.mp4','529.mp4','530.mp4','531.mp4','532.mp4','533.mp4','534.mp4','535.mp4',
+        '536.mp4','537.mp4','538.mp4','539.mp4','540.mp4','541.mp4','542.mp4','543.mp4','544.mp4','545.mp4','546.mp4','547.mp4','548.mp4','549.mp4','550.mp4',
+        '551.mp4','552.mp4','553.mp4','554.mp4','555.mp4','556.mp4','557.mp4','558.mp4'
 
         ];
 
 var dir= "mostcommonsigns/";
 
+const fs = require('fs');
 
 
 var filearray=[];
@@ -200,7 +193,17 @@ function startup(){
 
 
 
+ 
 
+    fs.readdir('./mostcommonsigns', (err, files) => {
+      if (err) {
+        console.error(err);
+        return;
+      }
+      console.log("getfilenames");
+      console.log(files);
+    });
+    
 
 for(var i=0; i<mostcommonsigns.length;i++){
     filearray[i]=mostcommonsigns[i];
@@ -359,20 +362,13 @@ function dropdown(){
             filearray[i]=mostcommonsigns3[i];
         }
         dir="mostcommonsigns3/";
-    }
-        if(selectedOption=="byron"){
-            for(var i=0; i<byron.length;i++){
-                filearray[i]=byron[i];
-            }
-            dir="byron/";
     
-        }
 
-        if(selectedOption=="forevan"){
-            for(var i=0; i<forevan.length;i++){
-                filearray[i]=forevan[i];
+        if(selectedOption=="inthewild"){
+            for(var i=0; i<inthewild.length;i++){
+                filearray[i]=inthewild[i];
             }
-            dir="forevan/";
+            dir="inthewild/";
     
         }
         if(selectedOption=="dailymoth"){
@@ -465,4 +461,5 @@ selectElement.appendChild(newOption3);
         about.style.display="none";
         next();
     }
+}
 }
