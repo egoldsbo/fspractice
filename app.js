@@ -122,7 +122,6 @@ var inthewild=[
 
 var dir= "mostcommonsigns/";
 
-const fs = require('fs');
 
 
 var filearray=[];
@@ -192,18 +191,6 @@ revealword.addEventListener("touchend", function() {
 function startup(){
 
 
-
- 
-
-    fs.readdir('./mostcommonsigns', (err, files) => {
-      if (err) {
-        console.error(err);
-        return;
-      }
-      console.log("getfilenames");
-      console.log(files);
-    });
-    
 
 for(var i=0; i<mostcommonsigns.length;i++){
     filearray[i]=mostcommonsigns[i];
