@@ -430,24 +430,6 @@ function setabout(){
     var about=document.getElementById("about");
     aboutcount++;
     
-    if(aboutcount>3&&secretunlock==0){
-secretunlock=1;
-const selectElement = document.getElementById("mySelect");
-const newOption = document.createElement("option");
-const newOption2 = document.createElement("option");
-const newOption3 = document.createElement("option");
-newOption2.value = "byron";
-newOption2.text = "byron";
-newOption.value = "forevan";
-newOption.text = "forevan";
-newOption3.value = "dailymoth";
-newOption3.text = "dailymoth";
-
-// append the new option element to the select element
-///selectElement.appendChild(newOption2);
-///selectElement.appendChild(newOption);
-selectElement.appendChild(newOption3);
-    }
     if(aboutstate==0){
 
     aboutstate=1;
